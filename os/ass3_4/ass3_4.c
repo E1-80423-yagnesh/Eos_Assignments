@@ -2,6 +2,10 @@
 #include <unistd.h>
 #include <sys/wait.h>
 #include<string.h>
+#include "circle.h"
+#include "rect.h"
+#include "square.h"
+
 
 int main() {
     int i=0, err,pid1, pid2, pid3,pid4,pid5,pid6, s1, s2, s3,s4,s5,s6;
