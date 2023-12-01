@@ -1,8 +1,15 @@
-#include<stdio.h>
+// square.c
+#include "main.h"
 
-
-int square()
+float square_area()
 {
-    printf("This is Square\n");
-    return 0;
+
+	int l;
+	printf("\n");
+	printf("area of circle\n");
+	printf("\n");
+	printf("Enter the side of square :");
+	scanf("%d", &l);
+	
+	return l*l;
 }

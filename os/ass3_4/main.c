@@ -1,13 +1,18 @@
-#include<stdio.h>
-#include"circle.h"
-#include"square.h"
-#include"rect.h"
+#include "main.h"
+
+
 
 int main()
 {
-    circle();
-    rect();
-    square();
 
-    return 0;
+	printf("The area of the Circle is %.2f\n", circle_area());
+        printf("\n");
+        
+	printf("The area of the square is %.2f\n", square_area());
+        printf("\n");
+        
+	printf("The area of the Rectangle is %.2f\n", rect_area());
+        printf("\n");
+ 
+ return 0;
 }
